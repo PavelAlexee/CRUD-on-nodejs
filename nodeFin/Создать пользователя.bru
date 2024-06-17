@@ -1,0 +1,29 @@
+meta {
+  name: Создать пользователя
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://127.0.0.1:3000/users
+  body: formUrlEncoded
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Sasha",
+    "age": 5, 
+    "id": 1
+  }
+}
+
+body:form-urlencoded {
+  name: dfwedwqd
+  age: 5552
+}
+
+body:multipart-form {
+  name: hhhhh
+  age: 3000
+}

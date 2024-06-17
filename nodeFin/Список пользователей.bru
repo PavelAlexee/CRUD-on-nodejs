@@ -1,0 +1,15 @@
+meta {
+  name: Список пользователей
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://127.0.0.1:3000/users
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: 
+}
